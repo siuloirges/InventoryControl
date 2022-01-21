@@ -1,0 +1,127 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+table{
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+
+th, td {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: xx-small;
+}
+
+th {
+    text-align: center;
+}
+
+.t1{
+    font-weight: bold;
+    font-size: large;
+}
+
+.t2{
+    font-weight: bold;
+    font-size: medium;
+}
+
+.t3{
+    font-weight: bold;
+    font-size: xx-small;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.zero{
+    padding: 0px;
+    margin: 0px;
+    height: 0px;
+    border-color: white;
+}
+
+.center{
+    text-align: center;
+}
+.justify{
+    text-align: justify;
+}
+
+.no-border-top {
+    
+    border-left-color : white;
+    border-right-color : white;
+    border-top-color : white;
+}
+
+.nb{
+    
+    border-left-color : white;
+    border-right-color : white;
+    border-top-color : white;
+    border-bottom-color : white;
+}
+
+.nbb{
+    border-bottom-color : white;
+}
+
+.nbt{
+    border-top-color : white;
+}
+.nbl{
+    border-left-color : white;
+}
+
+.nbr{
+    border-right-color : white;
+}
+
+.no-border-bottom {
+    border-left-color : white;
+    border-right-color : white;
+    border-bottom-color : white;
+}
+.page-break {
+    page-break-after: always;
+}
+
+
+.logos{
+     height: 100px;
+    max-width: 200px;
+}
+
+.qr{
+     height: 150px;
+    max-width: 150px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#header { position: fixed; left: 0px; top: -180px; right: 0px; height: 150px; background-color: orange; text-align: center; }
+    #footer { position: fixed; left: 0px; bottom: -180px; right: 0px; height: 150px; background-color: lightblue; }
+    #footer .page:after { content: counter(page, upper-roman); }
+
+
+.corte {
+    height: 35px;   
+}
+
+.alto_fijo{
+    height: 30px;
+}
+
+.margin_long{
+    margin:5% 10% 0% 10%;
+}
